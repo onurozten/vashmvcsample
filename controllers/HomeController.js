@@ -8,14 +8,14 @@ exports.Index = function(request, response){
 exports.SeriousAction = function(request, response){
     response.pageInfo = {};
     response.pageInfo.title = 'Home / SeriousAction';
-    response.pageInfo.content = 'INNER CONTENT FROM CONTROLLER';
+    response.pageInfo.content = 'INNER CONTENT FROM CONTROLLER 2';
     response.render('home/SeriousAction', response.pageInfo);
 };
 
 exports.FunnyAction = function(request, response){
     response.pageInfo = {};
     response.pageInfo.title = 'Home / FunnyAction';
-    response.pageInfo.content = 'INNER CONTENT FROM CONTROLLER';
+    response.pageInfo.content = 'INNER CONTENT FROM CONTROLLER 3';
     response.render('home/FunnyAction', response.pageInfo);
 };
 
