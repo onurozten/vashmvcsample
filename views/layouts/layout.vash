@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@model.title</title>
+</head>
+<body>
+	<div>
+		menu <br>
+		<ul>
+			<li><a href="/">Home Page</a></li>
+			<li><a href="/home/seriousaction">SeriousAction</a></li>
+			<li><a href="/home/funnyaction">FunnyAction</a></li>
+			<li><a href="/other">Other</a></li>
+		</ul>
+	</div>
+    @html.block('body')
+</body>
+</html>

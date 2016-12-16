@@ -1,0 +1,9 @@
+{
+    "name": "MVC-Express-VashTemplateEngine-Application",
+    "description": "An Express.js application using the MVC pattern and Vash template engine.",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "4.4.4",	
+	    "vash": "0.12.2"
+    }
+}
