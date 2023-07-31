@@ -1,4 +1,4 @@
 # vashmvcsample
-An Express.js application uses the MVC design pattern and Vash template engine.
+An Express.js application uses the MVC pattern and Vash view engine.
 
 Nodejs, ExpressJs, MVC, Vash.
